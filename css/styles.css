@@ -1,0 +1,34 @@
+body {
+  text-align: center;
+}
+form {
+  margin-top:20px;
+}
+#output {
+  /* font-size:1.2vw; */
+  text-align:left;
+  padding:50px;
+  /* border: 1px solid gray; */
+  width: 50vw;
+  height: calc( 50vw * calc( 11 / 8.5 ) );
+  max-height:80vh;
+  max-width: calc( 80vh * calc( 8.5 / 11 ) );
+  min-height:40vh;
+  min-width: calc( 40vh * calc( 8.5 / 11 ) );
+  margin: 0 auto;
+  margin-top:40px;
+  /* background-color: green; */
+  /* display: none; */
+  transform: scaleX(0) scaleY(0);
+  opacity: 0;
+  transition: all 500ms ease, opacity 3000ms ease;
+  overflow: auto;
+  box-shadow: 0px 0px 9px 3px gray;
+}
+#farewell {
+  margin-top:30px;
+  font-size:1.2em;
+  text-align:right;
+  font-family:cursive;
+  margin-right:30px;
+}
